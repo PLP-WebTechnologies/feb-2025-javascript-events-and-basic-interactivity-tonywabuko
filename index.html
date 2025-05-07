@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Interactive Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Event Handling Section -->
+    <section class="event-section">
+        <h2>Event Playground 🎈</h2>
+        <button id="colorChanger">Click Me! 🖱️</button>
+        <div class="hover-box">Hover Over Me! ✈</div>
+        <p id="keypressMessage">Press any key... 🎹</p>
+        <div class="secret-trigger">🤫 Double-click for secret!</div>
+        <p class="secret-message"></p>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-section">
+        <h2>Travel Gallery 🌆</h2>
+        <div class="slideshow">
+            <img src="https://picsum.photos/400/300?image=0" alt="Slide">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+    </section>
+
+    <!-- Tabs Section -->
+    <section class="tab-section">
+        <div class="tabs">
+            <button class="tab active" data-tab="1">Cape Town 🏞</button>
+            <button class="tab" data-tab="2">Barcelona 🏖</button>
+            <button class="tab" data-tab="3">Seoul 🏙</button>
+        </div>
+        <div class="tab-content active" data-tab="1">Explore Table Mountain and vibrant markets...</div>
+        <div class="tab-content" data-tab="2">Stroll through the Gothic Quarter and beaches...</div>
+        <div class="tab-content" data-tab="3">Experience K-culture and dazzling city lights...</div>
+    </section>
+
+    <!-- Validation Form -->
+    <section class="form-section">
+        <h2>Travel Sign Up ✈</h2>
+        <form id="signupForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Name">
+                <span class="error"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email">
+                <span class="error"></span>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Password">
+                <span class="error"></span>
+            </div>
+            <button type="submit">Adventure Awaits! 🌍</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
